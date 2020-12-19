@@ -1,0 +1,73 @@
+* {
+	font-family: Montserrat, sans-serif;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(45deg, #fc466b, #3f5efb);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	width: 1024px;
+	height: 80vh;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.wrapper {
+	margin: 2rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+h2,
+h3 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	color: #fff;
+	opacity: 0.7;
+	font-size: 1.4rem;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input,
+select {
+	background: transparent;
+	width: 200px;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border: none;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5000px;
+	backdrop-filter: blur(5px);
+	box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	transition: all 0.2s ease-in-out;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+select {
+	color: blue;
+}
+::placeholder {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

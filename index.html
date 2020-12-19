@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				<div class="col">
+					<select name="schools" id="schools">
+						<option value="default">Choose school</option>
+					</select>
+
+					<input
+						type="number"
+						name="hours"
+						id="workedHours"
+						placeholder="Hours"
+					/>
+				</div>
+				<div class="col results">
+					<h3>Wages per hour:</h3>
+					<p class="wages"></p>
+					<h3>Worked hours:</h3>
+					<p class="hours"></p>
+					<h2>Total:</h2>
+					<p class="total"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
